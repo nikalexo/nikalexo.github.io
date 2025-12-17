@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSCA SPUCS
+</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #003399;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 1.5rem;
+      background: white;
+    }
+    h2 {
+      color: #003399;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e9ecf2;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    .results-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .result-item {
+            display: flex;
+            gap: 30px;
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            align-items: center;
+        }
+
+        .result-image {
+            flex: 0 0 250px;
+        }
+
+        .result-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .result-content {
+            flex: 1;
+        }
+
+        .result-content h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .result-content p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            .result-item {
+                flex-direction: column;
+                text-align: center;
+            }
+	    .result-image {
+                flex: none;
+                width: 100%;
+            }
+  </style>
+</head>
+<body>
+<header>
+<img src="img/SPUCS.png" alt="SPUCS" style="height:100px; vertical-align:middle; margin-right:15px;" />
+<h1 style="display:inline-block; vertical-align:middle;">Software architectures for Secure, Private, User-Controlled Smart devices</h1>
+</header>
+  <div class="container">
+    <h2>Project Title</h2>
+    <p><em>SPUCS: Software architectures for Secure, Private, User-Controlled Smart devices</em></p>
+
+    <h2>Project Summary</h2>
+    <p>
+      Smart mobile devices are ubiquitous and critical for our everyday lives. These devices comprise a massive amount of proprietary software from different vendors
+      with limited transparency and user control. SPUCS contributes new software architectures and methods for increased transparency and control over
+      smart devices. Technically, the project focuses on mobile devices running operating systems based on the Linux kernel, like the Android OS, the most
+      popular operating system in the world.
+    </p>
+
+<!--    <h2>Objectives</h2>
+    <ul>
+      <li>Technical solutions (architectures, concepts and methods), towards Secure, Private, User-Controlled Smart (SPUCS) devices.</li>
+      <li>Transparency and control mechanisms which do not trust proprietary components.</li>
+      <li>Mechanisms deployable on unmodified SW/HW stacks.</li>
+    </ul>
+
+    <h2>Methodology</h2>
+    <p>
+      Describe the research methods, work packages, or approaches you will use in the project.
+    </p>
+-->
+
+    <h2>Results</h2>
+    <div class="results-container">
+    <!-- Result 1 -->
+    <div class="result-item">
+        <div class="result-image">
+            <img src="img/slicedroid.png" alt="Project Diagram 1">
+        </div>
+        <div class="result-content">
+            <h3>SliceDroid: Low-level kernel tracing for transparency</h3>
+            <p>
+            </p>
+        </div>
+    </div>
+
+    <!-- Result 2 -->
+    <div class="result-item">
+        <div class="result-image">
+            <img src="img/WOOTdroid.png" alt="Project Diagram 2">
+        </div>
+        <div class="result-content">
+            <h3>WOOTDroid: eBPF-powered system control</h3>
+            <p>
+            </p>
+        </div>
+    </div>
+    
+    <!-- Result 3 -->
+    <div class="result-item">
+        <div class="result-image">
+            <img src="" alt="Project Diagram 2">
+        </div>
+        <div class="result-content">
+            <h3>Security and Privacy assessment of mobile messaging apps</h3>
+            <p>
+            </p>
+        </div>
+    </div>
+    
+    <!-- Result 4 -->
+    <div class="result-item">
+        <div class="result-image">
+            <img src="" alt="Project Diagram 2">
+        </div>
+        <div class="result-content">
+            <h3>Performance of unlinkable verifiable credentials for the EU Digital Identity Wallet</h3>
+            <p>
+            </p>
+        </div>
+    </div>
+    <section class="info-section">
+    <h2>Publications</h2>
+    <ul class="info-list">
+        <li>
+            <strong>Author Name et al.</strong>,
+            “Title of the Publication,”
+            <em>Journal / Conference Name</em>, 2024.
+        </li>
+        <li>
+            <strong>Author Name et al.</strong>,
+            “Another Research Paper Title,”
+            <em>Journal / Conference Name</em>, 2023.
+        </li>
+    </ul>
+</section>
+
+<!-- Tools Section -->
+<section class="info-section">
+    <h2>Open-source tools</h2>
+    <ul class="tools-list">
+        <li>SliceDroid</li>
+        <li>WOOTDroid</li>
+    </ul>
+</section>
+<!-- Impact Section -->
+<section class="info-section">
+    <h2>Expected Impact</h2>
+    <ul class="tools-list">
+        <li>Self-sovereignty</li>
+        <li>Transparency</li>
+        <li>Trust</li>
+    </ul>
+</section>
+
+</div>
+    <h2>Contact</h2>
+    <p>
+      <strong>Researcher:</strong> Nikolaos Alexopoulos<br />
+      <strong>Host Institution:</strong> Athens University of Economics and Business<br />
+      <strong>Email:</strong> alexopoulos AT aueb.gr
+    </p>
+  </div>
+
+<footer style="position: relative; text-align: center; padding: 1rem; background: #e9ecf2; margin-top: 2rem; font-size: 0.9rem;">
+<img src="img/eu_flag_2.png" alt="EU Flag" style="height: 40px; position: absolute; left: 20px; top: 50%; transform: translateY(-50%);" />
+<span>© 2025 - Marie Skłodowska-Curie Actions (MSCA) Software architectures for Secure, Private, User-Controlled Smart devices</span>
+</footer>
+
+</body>
+</html>
+
